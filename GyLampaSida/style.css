@@ -1,0 +1,135 @@
+:root    /* Egen kod */
+{
+  --primary-color: #70af85;
+  --secondary-color: #222831;
+  --fontone: Rubik Mono One, sans-serif;
+}
+
+*
+{
+  margin: 0;
+  padding:0;
+}
+
+
+/* Här börjar Navbar */
+.fas
+{
+  text-align: center;
+
+}
+.logo
+{
+  font-family: 'Orbitron', sans-serif;
+ font-size: 100px;
+ color: var(--secondary-color);
+ font-family: var(--fontone);
+ margin-left: -160px;
+}
+.navbar
+ {
+    background-color: var(--primary-color);
+    color: black;
+    height: 120px;
+  }
+  
+  .navbar ul
+   {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar a
+   {
+    font-family: var(--fontone);
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover 
+  {
+    border-bottom: 2px black solid;
+    text-decoration:none;
+    color: black; 
+    
+  }
+  
+  .navbar .flex
+   {
+    justify-content: space-between;
+  }
+  
+  .flex
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+    margin-right: 10px;
+    font-family: var(--fontone);
+  }
+/* Navbar ends */
+
+/* Product */
+.infos
+{
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.info
+{
+    font-family: var(--fontone);
+    text-align: center;
+
+}
+/* Product ends */
+
+/* Lamp */
+.lamps
+{
+    box-shadow: 10px black;
+}
+
+.lamp
+{
+width: 260px;
+transition: transform 0.2s ease-in;
+}
+
+.lamp:hover
+{
+    transform: translateY(-15px);
+}
+/* Lamp ends */
+
+/* lamp.html */
+.col-sm
+{
+    margin-top:100px;
+}
+.col-sm-lamp
+{
+    margin-top:150px;
+}
+
+.lampmini
+{
+    width: 100px;
+}
+
+
+.small-img-row
+{
+  margin-top: 40px;
+  display: flex;
+}
+
+.small-img-col
+{
+ flex-basis: 24%;
+ cursor: pointer;
+}
